@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.ssl.jibenkongjian.MainActivity">
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="120dp"
+        android:src="@color/colorAccent"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="个人爱好" />
+    <CheckBox
+        android:id="@+id/Read"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="读书"/>
+    <CheckBox
+        android:id="@+id/Swim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="游泳"/>
+    <CheckBox
+        android:id="@+id/Dance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="跳舞"/>
+    <CheckBox
+        android:id="@+id/Sing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="唱歌"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="性别" />
+    <RadioGroup
+        android:id="@+id/RG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="男"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="女"/>
+        <Button
+            android:id="@+id/Sub"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="提交"/>
+    </RadioGroup>
+</LinearLayout>
